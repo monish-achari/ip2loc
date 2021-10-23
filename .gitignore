@@ -2,3 +2,6 @@ db.sqlite3
 */migrations/*
 migrations/*
 */*/migrations*
+_pycache__/*
+_pycache__
+*/_pycache__*

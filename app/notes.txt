@@ -8,3 +8,5 @@ geoip2==4.4.0
 sudo apt install libmaxminddb0 libmaxminddb-dev mmdb-bin
 
 that's it
+
+pip install django-cors-headers

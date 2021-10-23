@@ -6,7 +6,7 @@ from django.contrib.gis.geoip2 import GeoIP2
 
 def ip2_loc(request):
     data = {}
-    q = request.GET.get("ip")
+    q = request.GET.get("ip") or "google.com"
     if q:
         g = GeoIP2()
         data = g.city(q)
