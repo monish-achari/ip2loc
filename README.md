@@ -8,4 +8,6 @@ IP to location finder API made with Django and React
 
 ### domain name
 
-![Domain Name](https://github.com/monish-achari/ip2loc/blob/main/image.jpg?raw=true)
+![Domain Name](https://raw.githubusercontent.com/monish-achari/ip2loc/main/static/domain_demo.png "Searhing with Domain name")
+
+![IP](https://raw.githubusercontent.com/monish-achari/ip2loc/main/static/ip_demo.png "Searhing with IP Address")
