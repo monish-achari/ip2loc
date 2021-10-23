@@ -46,19 +46,19 @@ function App() {
         <div className="card" style={{width: "18rem"}}>
           <ul className="list-group list-group-flush">
           {/* {JSON.stringify(data)} */}
-          <li className="list-group-item">Continent : {data.continent_name}</li>
-          <li className="list-group-item">Continent Code: {data.continent_code}</li>
-            <li className="list-group-item">Country : {data.country_name}</li>
-            <li className="list-group-item">Country Code: {data.country_code}</li>
-            <li className="list-group-item">City : {data.city}</li>
-            <li className="list-group-item">Dma Code : {data.dma_code}</li>
-            <li className="list-group-item">City : {data.city}</li>
-            <li className="list-group-item">Region : {data.region}</li>
-            <li className="list-group-item">Postal Code : {data.postal_code}</li>
-            <li className="list-group-item">Latitude : {data.latitude}</li>
-            <li className="list-group-item">Longitude : {data.longitude}</li>
-            <li className="list-group-item">Postal Code : {data.postal_code}</li>
-            <li className="list-group-item">Time Zone : {data.time_zone}</li>
+          <li className="list-group-item">Continent : <b>{data.continent_name}</b></li>
+          <li className="list-group-item">Continent Code: <b>{data.continent_code}</b></li>
+            <li className="list-group-item">Country : <b>{data.country_name}</b></li>
+            <li className="list-group-item">Country Code: <b>{data.country_code}</b></li>
+            <li className="list-group-item">City : <b>{data.city}</b></li>
+            <li className="list-group-item">Dma Code : <b>{data.dma_code}</b></li>
+            <li className="list-group-item">City :<b> {data.city}</b></li>
+            <li className="list-group-item">Region : <b>{data.region}</b></li>
+            <li className="list-group-item">Postal Code : <b>{data.postal_code}</b></li>
+            <li className="list-group-item">Latitude : <b>{data.latitude}</b></li>
+            <li className="list-group-item">Longitude : <b>{data.longitude}</b></li>
+            <li className="list-group-item">Postal Code : <b>{data.postal_code}</b></li>
+            <li className="list-group-item">Time Zone : <b>{data.time_zone}</b></li>
           </ul>
         </div>
       </div>
