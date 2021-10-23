@@ -16,7 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app.views import ip2_loc
+from django.views.generic.base import TemplateView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    # index.html
+    path('', TemplateView.as_view(template_name='index.html')),
+    # API
     path("ip2loc/",ip2_loc),
 ]

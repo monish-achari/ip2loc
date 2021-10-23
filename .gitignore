@@ -5,3 +5,5 @@ migrations/*
 _pycache__/*
 _pycache__
 */_pycache__*
+app/__pycache__/
+ip2loc/__pycache__/
