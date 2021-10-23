@@ -1,0 +1,10 @@
+django==3
+geoip2==4.4.0
+
+
+## paste 2 files inside static/loc
+## install one binary 
+
+sudo apt install libmaxminddb0 libmaxminddb-dev mmdb-bin
+
+that's it
